@@ -1,5 +1,5 @@
 import pytest
-
+ 
 from video_gen.exceptions import ProviderNotSupported
 from video_gen.models import TaskStatus, VideoRequest
 from video_gen.providers.registry import get_provider_class
