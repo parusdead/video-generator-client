@@ -5,8 +5,6 @@ One async Python client for multiple video-generation providers: **Seedance, Kli
 
 # Supported Models
 
-# Supported Models
-
 | Provider | Version | API Model ID | Notes |
 |---|---|---|---|
 | **Seedance** (ByteDance) | 2.5 | `doubao-seedance-2.5` | 30s one-take, native audio |
@@ -29,7 +27,7 @@ One async Python client for multiple video-generation providers: **Seedance, Kli
 ## Install
 
 ```bash
-git clone https://github.com/letorig/video-generator-client
+git clone https://github.com/parusdead/video-generator-client
 cd video-generator-client
 python -m venv .venv
 # Windows:
@@ -80,7 +78,7 @@ The UI provides:
 ## Project layout
 
 ```text
-unified-video-gen/
+video-generator-client/
 ├── src/video_gen/
 │   ├── client.py
 │   ├── cli.py
